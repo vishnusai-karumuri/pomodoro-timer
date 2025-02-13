@@ -1,5 +1,5 @@
 {
-  "name": "monarch-pomodoro-timer",
+  "name": "pomodoro-timer-simple",
   "displayName": "Pomodoro Timer - Simple",
   "description": "A minimal visual Pomodoro timer with SVG animations",
   "version": "0.0.2",
@@ -69,6 +69,7 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "monarch-pomodoro-timer": "file:"
+    "monarch-pomodoro-timer": "file:",
+    "pomodoro-timer-simple": "file:"
   }
 }

@@ -1,8 +1,5 @@
 # VSCode Pomodoro Timer
 
-[![Version](https://img.shields.io/visual-studio-marketplace/v/Monarch.monarch-pomodoro-timer)](https://marketplace.visualstudio.com/items?itemName=Monarch.monarch-pomodoro-timer)
-[![Installs](https://img.shields.io/visual-studio-marketplace/i/Monarch.monarch-pomodoro-timer)](https://marketplace.visualstudio.com/items?itemName=Monarch.monarch-pomodoro-timer)
-[![Rating](https://img.shields.io/visual-studio-marketplace/r/Monarch.monarch-pomodoro-timer)](https://marketplace.visualstudio.com/items?itemName=Monarch.monarch-pomodoro-timer)
 [![GitHub](https://img.shields.io/github/license/vishnusai-karumuri/pomodoro-timer)](https://github.com/vishnusai-karumuri/pomodoro-timer/blob/main/LICENSE)
 
 A minimal and elegant Pomodoro Timer that lives in your VSCode status bar. Stay focused and productive with timed work sessions and breaks.
