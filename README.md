@@ -1,8 +1,8 @@
 # VSCode Pomodoro Timer
 
-[![Version](https://img.shields.io/visual-studio-marketplace/v/Monarch.pomodoro-timer)](https://marketplace.visualstudio.com/items?itemName=Monarch.pomodoro-timer)
-[![Installs](https://img.shields.io/visual-studio-marketplace/i/Monarch.pomodoro-timer)](https://marketplace.visualstudio.com/items?itemName=Monarch.pomodoro-timer)
-[![Rating](https://img.shields.io/visual-studio-marketplace/r/Monarch.pomodoro-timer)](https://marketplace.visualstudio.com/items?itemName=Monarch.pomodoro-timer)
+[![Version](https://img.shields.io/visual-studio-marketplace/v/Monarch.monarch-pomodoro-timer)](https://marketplace.visualstudio.com/items?itemName=Monarch.monarch-pomodoro-timer)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/Monarch.monarch-pomodoro-timer)](https://marketplace.visualstudio.com/items?itemName=Monarch.monarch-pomodoro-timer)
+[![Rating](https://img.shields.io/visual-studio-marketplace/r/Monarch.monarch-pomodoro-timer)](https://marketplace.visualstudio.com/items?itemName=Monarch.monarch-pomodoro-timer)
 [![GitHub](https://img.shields.io/github/license/vishnusai-karumuri/pomodoro-timer)](https://github.com/vishnusai-karumuri/pomodoro-timer/blob/main/LICENSE)
 
 A minimal and elegant Pomodoro Timer that lives in your VSCode status bar. Stay focused and productive with timed work sessions and breaks.
@@ -33,7 +33,7 @@ A minimal and elegant Pomodoro Timer that lives in your VSCode status bar. Stay 
 
 1. Open VSCode
 2. Press `Ctrl+P` / `Cmd+P`
-3. Type `ext install Monarch.pomodoro-timer`
+3. Type `ext install Monarch.monarch-pomodoro-timer`
 4. Press Enter
 
 ## Usage
@@ -86,11 +86,20 @@ Currently using default Pomodoro timings:
 
 Found a bug or have a feature request? Please [open an issue](https://github.com/vishnusai-karumuri/pomodoro-timer/issues).
 
+## Credits
+
+- Extension icon: [Tomato icon](https://www.iconfinder.com/search?q=tomato&price=free) licensed under [Creative Commons (Attribution 3.0 Unported)](http://creativecommons.org/licenses/by/3.0/)
+
 ## License
 
 This extension is licensed under the [MIT License](https://github.com/vishnusai-karumuri/pomodoro-timer/blob/main/LICENSE).
 
 ## Release Notes
+
+### 0.0.2
+- Added icon credits and attribution
+- Fixed package size optimization
+- Removed circular dependencies
 
 ### 0.0.1
 - Initial release
