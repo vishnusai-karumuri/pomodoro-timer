@@ -3,12 +3,33 @@
   "displayName": "Pomodoro Timer",
   "description": "A minimal visual Pomodoro timer with SVG animations",
   "version": "0.0.1",
+  "publisher": "Monarch",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vishnusai-karumuri/pomodoro-timer"
+  },
+  "bugs": {
+    "url": "https://github.com/vishnusai-karumuri/pomodoro-timer/issues"
+  },
+  "homepage": "https://github.com/vishnusai-karumuri/pomodoro-timer#readme",
   "engines": {
     "vscode": "^1.85.0"
   },
   "categories": [
     "Other"
   ],
+  "keywords": [
+    "pomodoro",
+    "timer",
+    "productivity",
+    "focus",
+    "time management"
+  ],
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#C80000",
+    "theme": "dark"
+  },
   "activationEvents": [
     "onStartupFinished"
   ],

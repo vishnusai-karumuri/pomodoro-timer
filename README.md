@@ -1,29 +1,100 @@
-# Pomodoro Timer VSCode Extension
+# VSCode Pomodoro Timer
 
-A minimal visual Pomodoro timer extension for VSCode with SVG animations.
+[![Version](https://img.shields.io/visual-studio-marketplace/v/Monarch.pomodoro-timer)](https://marketplace.visualstudio.com/items?itemName=Monarch.pomodoro-timer)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/Monarch.pomodoro-timer)](https://marketplace.visualstudio.com/items?itemName=Monarch.pomodoro-timer)
+[![Rating](https://img.shields.io/visual-studio-marketplace/r/Monarch.pomodoro-timer)](https://marketplace.visualstudio.com/items?itemName=Monarch.pomodoro-timer)
+[![GitHub](https://img.shields.io/github/license/vishnusai-karumuri/pomodoro-timer)](https://github.com/vishnusai-karumuri/pomodoro-timer/blob/main/LICENSE)
+
+A minimal and elegant Pomodoro Timer that lives in your VSCode status bar. Stay focused and productive with timed work sessions and breaks.
+
+[GitHub Repository](https://github.com/vishnusai-karumuri/pomodoro-timer) | [Report Issues](https://github.com/vishnusai-karumuri/pomodoro-timer/issues)
 
 ## Features
 
-- Clean and minimal interface
-- Visual progress indicator with smooth animations
-- Integrates with VSCode's theme colors
-- 25-minute Pomodoro sessions
+- 🎯 **Minimal Interface**: Lives in your status bar - no intrusive windows or popups
+- ⏱️ **Standard Pomodoro Technique**:
+  - 25-minute focused work sessions
+  - 5-minute short breaks
+  - 15-minute long breaks after 4 work sessions
+- 🔄 **Smart Break System**:
+  - Automatically suggests breaks after each session
+  - Long breaks after 4 completed Pomodoros
+  - Skip break option for flexibility
+- 👀 **Visual Feedback**:
+  - Different icons for work and break periods
+  - Color-coded status bar for different states
+  - Progress tracking in tooltips
+- 📊 **Session Tracking**:
+  - Counts completed Pomodoros
+  - Shows current session progress
+  - Maintains cycle count for long breaks
 
 ## Installation
 
-1. Clone this repository
-2. Run `npm install`
-3. Press F5 to start debugging
+1. Open VSCode
+2. Press `Ctrl+P` / `Cmd+P`
+3. Type `ext install Monarch.pomodoro-timer`
+4. Press Enter
 
 ## Usage
 
-1. Open the command palette (Ctrl+Shift+P / Cmd+Shift+P)
-2. Type "Pomodoro: Start Timer"
-3. The timer will appear in a new panel
-4. Timer will automatically notify you when the session is complete
+### Starting a Session
+1. Click the timer in the status bar, or
+2. Open command palette (`Ctrl+Shift+P` / `Cmd+Shift+P`)
+3. Type "Pomodoro: Start Timer"
 
-## Development
+### During a Session
+- Timer shows in status bar with remaining time
+- Click to pause/resume
+- Notifications appear when sessions end
+- Choose to take or skip breaks
 
-- `npm run watch` - Compile in watch mode
-- `npm run compile` - Compile the extension
-- `npm run package` - Create a production build 
+### Status Bar Indicators
+- `⌚ Focus 25:00` - Work session in progress
+- `🕐 Break 05:00` - Break session in progress
+- `▶️ Pomodoro 25:00` - Ready to start
+- Different background colors for work and break periods
+
+### Break System
+- 5-minute breaks after regular sessions
+- 15-minute breaks after completing 4 Pomodoros
+- Option to skip breaks if needed
+- Option to delay new work sessions
+
+## Commands
+
+| Command | Description |
+|---------|-------------|
+| `Pomodoro: Start Timer` | Start/Resume the timer |
+| `Pomodoro: Toggle Timer` | Toggle between pause/resume |
+
+## Settings
+
+Currently using default Pomodoro timings:
+- Work Session: 25 minutes
+- Short Break: 5 minutes
+- Long Break: 15 minutes
+- Long Break Interval: Every 4 sessions
+
+## Contributing
+
+1. Fork the repository: [Fork](https://github.com/vishnusai-karumuri/pomodoro-timer/fork)
+2. Create your feature branch: `git checkout -b feature/my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin feature/my-new-feature`
+5. Submit a pull request
+
+Found a bug or have a feature request? Please [open an issue](https://github.com/vishnusai-karumuri/pomodoro-timer/issues).
+
+## License
+
+This extension is licensed under the [MIT License](https://github.com/vishnusai-karumuri/pomodoro-timer/blob/main/LICENSE).
+
+## Release Notes
+
+### 0.0.1
+- Initial release
+- Basic Pomodoro functionality
+- Status bar integration
+- Break management system
+- Session tracking 
