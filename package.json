@@ -69,7 +69,6 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "monarch-pomodoro-timer": "file:",
     "pomodoro-timer-simple": "file:"
   }
 }
